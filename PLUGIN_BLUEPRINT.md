@@ -17,7 +17,6 @@ A complete plugin integration requires:
 ### Directory Structure
 ```
 src/plugin/your-tool-name/
-├── .gitignore
 ├── package.json
 ├── tsconfig.json
 ├── rollup.config.js
@@ -27,14 +26,6 @@ src/plugin/your-tool-name/
     │   └── LineToolYourTool.ts    # Tool logic
     └── views/
         └── LineToolYourToolPaneView.ts  # Rendering
-```
-
-### .gitignore
-```
-node_modules/
-dist/
-docs
-package-lock.json
 ```
 
 ### Model Class Template
