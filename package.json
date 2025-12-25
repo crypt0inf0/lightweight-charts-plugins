@@ -1,0 +1,38 @@
+{
+  "name": "lightweight-charts-line-tools-plugin-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "@mui/system": "^7.3.2",
+    "lightweight-charts": "^5.0.9",
+    "lightweight-charts-line-tools-core": "file:./src/plugin/core",
+    "lightweight-charts-line-tools-circle": "file:./src/plugin/circle",
+    "lightweight-charts-line-tools-fib-retracement": "file:./src/plugin/fib-retracement",
+    "lightweight-charts-line-tools-freehand": "file:./src/plugin/freehand",
+    "lightweight-charts-line-tools-lines": "file:./src/plugin/lines",
+    "lightweight-charts-line-tools-long-short-position": "file:./src/plugin/long-short-position",
+    "lightweight-charts-line-tools-market-depth": "file:./src/plugin/market-depth",
+    "lightweight-charts-line-tools-parallel-channel": "file:./src/plugin/parallel-channel",
+    "lightweight-charts-line-tools-path": "file:./src/plugin/path",
+    "lightweight-charts-line-tools-price-range": "file:./src/plugin/price-range",
+    "lightweight-charts-line-tools-rectangle": "file:./src/plugin/rectangle",
+    "lightweight-charts-line-tools-text": "file:./src/plugin/text",
+    "lightweight-charts-line-tools-triangle": "file:./src/plugin/triangle",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "@vitejs/plugin-react": "^4.3.0"
+  },
+  "scripts": {
+    "dev": "vite --port 3001",
+    "build": "vite build",
+    "preview": "vite preview --port 3001"
+  }
+}
