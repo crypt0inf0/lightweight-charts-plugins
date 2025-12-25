@@ -89,4 +89,6 @@ Since the individual plugin source code is optimized for performance rather than
 
 ## 🤝 Community & Contributions
 
+**Credits:** This project builds on code by [difurious](https://github.com/difurious). Special thanks for the Line Tools Core and related plugins which made this test app possible.
+
 This app is designed to be a "Live Specification" of the drawing tool suite. If you develop a new line tool using the Core, you are encouraged to add a test panel here and share it with the community.
