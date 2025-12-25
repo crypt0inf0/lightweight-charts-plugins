@@ -96,7 +96,7 @@ const LineToolTestPanel = ({ lineToolsPluginRef, chartInstanceRef, candlestickSe
 
 			{/* Section 2: Interactive Drawing (Nested Accordions for Each Tool) */}
 			<Accordion onChange={handleChange('interactivePanel')} sx={{ mb: 2 }}>
-				<AccordionSummary expandIcon={<ExpandMoreIcon />}><Typography variant="h6">4. Interactive Drawing (Click Chart to Draw)</Typography></AccordionSummary>
+				<AccordionSummary expandIcon={<ExpandMoreIcon />}><Typography variant="subtitle1" fontWeight="medium">4. Interactive Drawing (Click Chart to Draw)</Typography></AccordionSummary>
 				<AccordionDetails>
 					<Grid container spacing={2}>
 						{/* Nested Accordion for Rectangle Tool (Interactive) */}
@@ -209,7 +209,7 @@ const LineToolTestPanel = ({ lineToolsPluginRef, chartInstanceRef, candlestickSe
 
 			{/* Section 3: Programmatic Tool Creation (Nested Accordions for Each Tool) */}
 			<Accordion onChange={handleChange('programmaticPanel')} sx={{ mb: 2 }}>
-				<AccordionSummary expandIcon={<ExpandMoreIcon />}><Typography variant="h6">5. Programmatic Tool Creation</Typography></AccordionSummary>
+				<AccordionSummary expandIcon={<ExpandMoreIcon />}><Typography variant="subtitle1" fontWeight="medium">5. Programmatic Tool Creation</Typography></AccordionSummary>
 				<AccordionDetails>
 					<Grid container spacing={2}>
 						{/* Nested Accordion for Rectangle Tool (Programmatic) */}
